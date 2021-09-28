@@ -1,0 +1,42 @@
+body{
+    background-color: rgba(206, 179, 179, 0.918);
+   
+
+}
+
+
+
+h1{
+    font-size: 5rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+.space{
+    position: relative;
+    display: flex;
+    padding: 5px 100px 5px;
+    
+   margin: 5px auto;
+    align-items: center;
+    text-align: center;
+
+  
+}
+.space h5{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+footer{
+    width: 100%;
+    display: inline-block;
+    padding-top: 200px;
+    font-size: 2rem;
+    text-align: center;
+   
+}
